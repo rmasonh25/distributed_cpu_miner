@@ -1,1 +1,30 @@
+# Ignore Cargo build artifacts
+/target/
+
+# Ignore IDE/editor configs
+**/*.swp
+.idea/
+.vscode/
+*.log
+
+# Ignore dependency lock file if you're publishing a library (keep it for apps)
+# Cargo.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
+
+# Environment & Docker
+.env
+.env.*
+.dockerignore
+
+# Ignore binaries (optional if you're keeping compiled tools outside /target)
+/*.exe
+/*.out
+/*.bin
 /target
